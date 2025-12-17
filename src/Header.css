@@ -1,0 +1,28 @@
+.navbar {
+background-color: #1e293b;
+padding: 15px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.logo {
+color: #ffffff;
+font-size: 22px;
+font-weight: bold;
+}
+
+
+.nav-links a {
+color: #ffffff;
+text-decoration: none;
+margin-left: 20px;
+font-size: 16px;
+}
+
+
+.nav-links a:hover {
+color: #38bdf8;
+border-bottom: 2px solid #38bdf8;
+}
