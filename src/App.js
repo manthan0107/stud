@@ -13,18 +13,28 @@ import Login from './Login';
 import Registration from './Registration';
 import About from './About';
 import Footer from './Footer';
+import ListPassEx from './ListPassEx';
+import Listmultiple from './Listmultiple';
+import List from './List';
+import Eventclass from './Eventclass';
+import Eventfunction from './Eventfunction';
+import Eventfunctionpass from './Eventfunctionpass';
 function App() {
   return (
     <div className="App">
+      <Eventclass/>
+      <Eventfunction/>
+      <Eventfunctionpass/>  
+      {/* <List />
+      <Listmultiple />
+      <ListPassEx/> */}
+
       {/* <h1>App Page</h1>
       <Function_com/>
       <Class_com/>
       <Props_function sid={101} sname={'Manthan'} marks={96}/>
-      <Props_class eid={102} ename={'meet'} salary={60000}/>       */}
-
-      
-        <Header />
-      
+      <Props_class eid={102} ename={'meet'} salary={60000}/>            
+        <Header />   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -33,9 +43,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Registration />} />
       </Routes>
-
-      <Footer />
-
+      <Footer /> */}
     </div>
   );
 }
