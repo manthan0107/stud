@@ -19,12 +19,24 @@ import List from './List';
 import Eventclass from './Eventclass';
 import Eventfunction from './Eventfunction';
 import Eventfunctionpass from './Eventfunctionpass';
+import Stateclass from './Stateclass';
+import Stateclassprop from './Stateclassprop';
+import Satetclasscon from './Satetclasscon';
+import Stateclassupdate from './Stateclassupdate';
+import Statefunctionupdate from './Statefunctionupdate';
+import Statefunctiontable from './Statefunctiontable';
 function App() {
   return (
     <div className="App">
-      <Eventclass/>
+      <Stateclass/>
+      <Stateclassprop Rno={1} Name={'mohit'} Gender={'Male'}/>
+      <Satetclasscon Rno={10}/>
+      <Stateclassupdate/>
+      <Statefunctionupdate />
+      <Statefunctiontable/>
+      {/* <Eventclass/>
       <Eventfunction/>
-      <Eventfunctionpass/>  
+      <Eventfunctionpass/>   */}
       {/* <List />
       <Listmultiple />
       <ListPassEx/> */}
