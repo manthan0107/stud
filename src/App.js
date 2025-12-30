@@ -1,5 +1,6 @@
 
-import './App.css';
+// import './App.css';
+import './FormEx.css';
 import { Routes, Route } from "react-router-dom";
 import Function_com from './function_com';
 import Class_com from './class_com';
@@ -25,15 +26,21 @@ import Satetclasscon from './Satetclasscon';
 import Stateclassupdate from './Stateclassupdate';
 import Statefunctionupdate from './Statefunctionupdate';
 import Statefunctiontable from './Statefunctiontable';
+import FormEx from './FormEx';
+import FormEx1 from './FormEx1';
+import FormEx2 from './FormEx2';
 function App() {
   return (
     <div className="App">
-      <Stateclass/>
+      <FormEx2/>
+      {/* <FormEx1/> */}
+      {/* <FormEx/> */}
+      {/* <Stateclass/>
       <Stateclassprop Rno={1} Name={'mohit'} Gender={'Male'}/>
       <Satetclasscon Rno={10}/>
       <Stateclassupdate/>
       <Statefunctionupdate />
-      <Statefunctiontable/>
+      <Statefunctiontable/> */}
       {/* <Eventclass/>
       <Eventfunction/>
       <Eventfunctionpass/>   */}
